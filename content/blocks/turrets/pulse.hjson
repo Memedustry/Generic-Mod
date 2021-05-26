@@ -1,0 +1,61 @@
+type: ItemTurret
+name: a
+category: turret
+health: 650
+size: 4
+range: 240
+description: e
+targetGround: true
+targetAir: true
+reloadTime: 65
+shots: 1
+shootSound: shotgun
+ammoTypes: {
+
+    graphite: {
+        type: ShrapnelBulletType
+        damage: 115
+        length: 190
+        width: 32
+        toColor: 9CC6CD
+        serrations: 14
+    }
+    
+    blast-compound: {
+        type: ShrapnelBulletType
+        damage: 180
+        length: 100
+        width: 62
+        toColor: FF7345
+        serrations: 10
+        status: blasted
+    }
+    
+    tungsten: {
+        type: ShrapnelBulletType
+        damage: 220
+        length: 175
+        width: 40
+        toColor: A0A0A0
+        serrations: 12
+        status: melting
+    }
+    
+    electrum: {
+        type: ShrapnelBulletType
+        damage: 260
+        length: 240
+        width: 20
+        toColor: FFFAA5
+        serrations: 18
+        status: {
+            name: shocked2
+            localizedName: Shocked
+            speedMultiplier: 0.75
+        }
+    }
+    
+}
+requirements: [
+    copper/1
+]

@@ -1,0 +1,30 @@
+type: PowerTurret
+name: Defense Buoy
+category: turret
+health: 2048
+size: 3
+range: 340
+description: A turret that can only be placed on water. Great for taking out enemy naval units at long range.
+targetGround: true
+targetAir: false
+squareSprite: false
+shootLength: 6
+reloadTime: 25
+shots: 1
+placeableLiquid: true
+requiresWater: true
+powerUse: 5
+shootSound: laser
+shootType: {
+    type: LaserBulletType
+    shootY: -8
+    length: 340
+    width: 10
+    damage: 95
+}
+
+requirements: [
+    copper/250
+    metaglass/80
+    silicon/80
+]

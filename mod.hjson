@@ -1,0 +1,6 @@
+name: "Generic Mod"
+displayName: "Generic Mod"
+description: "Just a generic mod with generic content."
+author: Memedustry
+minGameVersion: 126
+version: "0.2 Beta"

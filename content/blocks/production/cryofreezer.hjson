@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Cryofreezer
+description: Mixes titanium lead and water to make large amounts of cryofluid.
+health: 475
+liquidCapacity: 96
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 15
+updateEffect: plasticburn
+drawer: DrawMixer
+consumes: {
+  power: 5
+    items:{
+     items:[
+      titanium/1
+      lead/1
+      ]
+   }
+  liquid: water/1.06666666666 
+  //64-sec ingame
+}
+requirements: [
+  copper/160
+  lead/200
+  metaglass/75
+  titanium/150
+  silicon/65
+  phase-fabric/40
+]
+category: crafting
+outputLiquid: cryofluid/16

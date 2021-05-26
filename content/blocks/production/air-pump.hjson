@@ -1,0 +1,22 @@
+type: Cultivator
+name: Air Compressor
+description: Compresses hydrogen from the atmosphere into canisters.
+health: 400
+itemCapacity: 20
+size: 2
+hasLiquids: false
+hasItems: true
+craftTime: 48
+updateEffect: pulverize
+consumes: {
+   power: 3
+}
+requirements: [
+  copper/250
+  titanium/60
+  graphite/75
+  silicon/35
+
+]
+category: crafting
+outputItem: hydrogen/1

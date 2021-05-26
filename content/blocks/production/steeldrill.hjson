@@ -1,0 +1,21 @@
+name: Steel Drill
+description: Heavy duty drill
+type: Drill
+size: 3
+health: 1024
+drillTime: 200
+tier: 6
+drawRim: true
+updateEffect: pulverize
+consumes: {
+power: 4
+liquid: water/0.1
+}
+rotateSpeed: 4
+requirements: [
+    copper/200
+	steel/125
+	silicon/25
+]
+research: blast-drill
+category: production

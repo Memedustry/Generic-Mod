@@ -1,0 +1,8 @@
+name: Sulfuric Acid
+description: Strong acid, can dissolve almost anything.
+viscosity: 0.2
+heatCapacity: 0.1
+flammability: 0.2
+temperature: 2
+color: CCEE34
+research: sulfur

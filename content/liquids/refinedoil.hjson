@@ -1,0 +1,7 @@
+name: Refined Oil
+description: Much cleaner than crude oil. Now viable for industrial purposes.
+viscosity: 0.9
+heatCapacity: 0.1
+flammability: 0.75
+color: 808080
+research: oil

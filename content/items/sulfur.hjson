@@ -1,0 +1,10 @@
+type: Item
+name: Sulfur
+description: A bright yellow powder. Toxic to most life.
+explosiveness: 0
+flammability: 0.25
+charge: 0
+toughness: 0
+cost: 1
+color: FDFF8D
+research: silver

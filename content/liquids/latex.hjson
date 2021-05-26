@@ -1,0 +1,7 @@
+name: Latex
+description: A very sticky sap made from Carbon and Hydrogen.
+details: It's typically produced by plants, there aren't many left to harvest it from.
+viscosity: 2
+heatCapacity: -0.01
+color: ffffff
+research: coal

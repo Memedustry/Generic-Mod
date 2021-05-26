@@ -1,0 +1,10 @@
+type: Item
+name: Hydrogen
+description: The fundametal material of our universe.
+explosiveness: 0.1
+flammability: 0.45
+charge: 0
+toughness: 0
+cost: 0
+color: f0f0f0
+research: water

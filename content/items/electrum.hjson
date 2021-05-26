@@ -1,0 +1,10 @@
+type: Item
+name: Electrum
+description: A highly conductive alloy.
+explosiveness: 0
+flammability: 0
+charge: 0.3
+toughness: 0.2
+cost: 1
+color: FFE19F
+research: silver

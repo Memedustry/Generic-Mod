@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Steel Smelter
+description: Heats iron and carbon together to create steel.
+health: 520
+liquidCapacity: 0
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 40
+updateEffect: plasticburn
+consumes: {
+  power: 4
+    items:{
+     items:[
+      iron/2
+      coal/1
+      ]
+   }
+}
+requirements: [
+  copper/165
+  lead/200
+  titanium/150
+  silicon/250
+]
+category: crafting
+outputItem: steel/2

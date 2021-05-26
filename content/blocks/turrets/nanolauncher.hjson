@@ -1,0 +1,40 @@
+type: ItemTurret
+name: Nanobot Launcher
+category: turret
+health: 650
+size: 2
+range: 240
+description: Fires a nanobot at enemies that immobilizes them for a short period.
+targetGround: true
+targetAir: true
+reloadTime: 80
+shots: 1
+shootSound: plasmaboom
+ammoTypes: {
+    electrum: {
+        type: BasicBulletType
+        lifetime: 70
+        speed: 100
+        shootEffect: {
+            type: particleEffect
+            particles: 1
+            length: 1
+            sizeFrom: 8
+            sizeTo: 0
+            lifetime: 10
+            region: generic-mod-nanotrail
+        }
+        damage: 0 
+        status: {
+            name: shocked
+            localizedName: Disabled
+            speedMultiplier: 0.2
+            disarm: true
+            effectChance: 0.75
+        }
+        statusDuration: 40
+    }
+}
+requirements: [
+    copper/1
+]

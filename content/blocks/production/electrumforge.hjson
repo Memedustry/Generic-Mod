@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Electrum Forge
+description: Alloys gold with silver to create electrum, an alloy with odd properties.
+health: 520
+liquidCapacity: 0
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 40
+updateEffect: plasticburn
+consumes: {
+  power: 6
+    items:{
+     items:[
+      gold/1
+      silver/1
+      ]
+   }
+}
+requirements: [
+  copper/300
+  titanium/100
+  silicon/100
+  tungsten/150
+]
+category: crafting
+outputItem: electrum/2

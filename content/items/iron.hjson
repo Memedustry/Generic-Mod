@@ -1,0 +1,10 @@
+type: Item
+name: Iron
+description: Fe. A material with a wide variety of uses. Rusts easily.
+explosiveness: 0
+flammability: 0
+charge: 0
+toughness: 0.6
+cost: 1
+color: C59A69
+research: copper
