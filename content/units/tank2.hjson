@@ -1,0 +1,62 @@
+type: mech
+name: Tank MK2
+description: Fires large explosive shells at long range and sets landmines nearby.
+speed: 0.6
+omniMovement: false
+health: 6450
+armor: 11
+canBoost: false
+rotateSpeed: 3
+faceTarget: true
+weapons: [
+    {
+    name: explosive-cannon
+    x: 0
+    y: -4
+    mirror: false
+    alternate: false
+    shots: 1
+    inaccuracy: 2
+    velocityRnd: 0.4
+    recoil: 2
+    reload: 38
+    shootSound: shootBig
+    bullet: {
+        type: fragExplosive
+        damage: 26
+        speed: 18
+        width: 10
+        height: 14
+        lifetime: 80
+        splashDamage: 15
+        splashDamageRadius: 24
+        backColor: FF9F87
+        status: blasted
+    }
+}
+    {
+    name: landmine-set
+    x: 4
+    y: 0
+    mirror: true
+    alternate: true
+    shots: 1
+    inaccuracy: 5
+    velocityRnd: 0.4
+    recoil: 0
+    reload: 80
+    shootSound: none
+    bullet: {
+        type: fragExplosive
+        damage: 65
+        speed: 4
+        drag: 0.065
+        width: 10
+        height: 10
+        lifetime: 2000
+        splashDamage: 50
+        splashDamageRadius: 42
+        status: blasted
+    }
+}
+]

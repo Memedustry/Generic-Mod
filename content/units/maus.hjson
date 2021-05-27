@@ -1,0 +1,43 @@
+type: mech
+name: Maus
+description: Fires piercing bullets that permanently slow enemies. Excels at soaking up damage.
+speed: 0.24
+omniMovement: false
+health: 29500
+armor: 18
+canBoost: false
+rotateSpeed: 2.2
+faceTarget: true
+weapons: [
+    {
+    name: slow-cannon
+    x: 0
+    y: -4
+    mirror: false
+    alternate: false
+    shots: 1
+    inaccuracy: 0
+    recoil: 7
+    reload: 100
+    shootSound: plasmaboom
+    bullet: {
+        type: fragExplosive
+        damage: 845
+        speed: 120
+        width: 16
+        height: 32
+        lifetime: 150
+        status: {
+            name: slow
+            localizedName: Crippled
+            speedMultiplier: 0.7
+            reloadMultiplier: 0.8
+            healthMultiplier: 0.85
+            permanent: true
+        }
+        pierce: true
+        pierceCap: 6
+        pierceBuilding: false
+    }
+}
+]

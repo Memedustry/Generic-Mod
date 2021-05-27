@@ -1,0 +1,36 @@
+type: mech
+name: Howitzer
+description: Fires devastating piercing shells at enemies at long range
+speed: 0.4
+omniMovement: false
+health: 10250
+armor: 8
+canBoost: false
+rotateSpeed: 2.2
+faceTarget: true
+weapons: [
+    {
+    name: sniper-cannon
+    x: 0
+    y: -4
+    mirror: false
+    alternate: false
+    shots: 1
+    inaccuracy: 0
+    recoil: 5
+    reload: 90
+    shootSound: plasmaboom
+    bullet: {
+        type: BasicBulletType
+        damage: 260
+        speed: 60
+        width: 8
+        height: 16
+        lifetime: 110
+        status: slow
+        pierce: true
+        pierceCap: 6
+        pierceBuilding: false
+    }
+}
+]
