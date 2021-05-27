@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: Plastanium Press
+description: Fuses titanium with oil at a higher rate.
+health: 265
+size: 3
+liquidCapacity: 150
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 75
+updateEffect: plasticburn
+consumes: {
+  power: 6
+    items:{
+     items:[
+      titanium/3
+      ]
+   }
+   liquid: oil/0.5
+}
+requirements: [
+  copper/100
+  lead/95
+  silicon/70
+  plastanium/65
+  phase-fabric/45
+]
+category: crafting
+outputItem: plastanium/3

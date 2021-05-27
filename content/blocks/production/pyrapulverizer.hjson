@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Pyratite Pulverizer
+description: Larger, but more efficient pyratite mixer.
+health: 340
+size: 4
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 70
+updateEffect: plasticburn
+consumes: {
+  power: 4
+    items:{
+     items:[
+      sand/3
+      lead/3
+      coal/2
+      ]
+   }
+}
+requirements: [
+  copper/100
+  lead/145
+  silicon/65
+  plastanium/60
+]
+category: crafting
+outputItem: pyratite/2

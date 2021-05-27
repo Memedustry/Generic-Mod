@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Metaglass Oven
+description: Fuses sand and lead to make metaglass. Requires coal to reach higher temperatures.
+health: 340
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 45
+updateEffect: plasticburn
+consumes: {
+  power: 4
+    items:{
+     items:[
+      sand/4
+      lead/2
+      coal/2
+      ]
+   }
+}
+requirements: [
+  copper/120
+  lead/120
+  metaglass/75
+  silicon/65
+  plastanium/45
+]
+category: crafting
+outputItem: metaglass/4

@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Blast Pulverizer
+description: Larger, but more efficient blast compound mixer.
+health: 370
+size: 4
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 65
+updateEffect: plasticburn
+consumes: {
+  power: 5
+    items:{
+     items:[
+      pyratite/2
+      spore-pod/2
+      ]
+   }
+}
+requirements: [
+  lead/100
+  titanium/145
+  silicon/65
+  plastanium/60
+]
+category: crafting
+outputItem: blast-compound/3
